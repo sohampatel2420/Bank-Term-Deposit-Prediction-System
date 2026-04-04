@@ -41,8 +41,6 @@ st.markdown("Predict whether a client will subscribe to a term deposit based on 
 st.sidebar.title("Navigation")
 option = st.sidebar.radio("Go to:", ["Manual Prediction", "Bulk Prediction Scanner"], index=1)
 
-st.sidebar.markdown("---")
-st.sidebar.info("Model Engine: Pure JSON/NumPy (Zero-Pickle)")
 
 # ==========================
 # Route Management
